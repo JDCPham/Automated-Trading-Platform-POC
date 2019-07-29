@@ -9,7 +9,7 @@ var json                =   require('./json.js');
 var action              =   require('./action.js');
 
 /* Scheduled Function */
-cron.schedule("*/15 * * * * *", function() {
+cron.schedule("0 7,10,15,30 * * * *", function() {
 
     // 1. Prepare POST method to retrieve token for Malcolm.
     var MalcolmAuthenticationOptions = config.MalcolmAuthenticationOptions;

@@ -895,6 +895,34 @@
             "exitPrice": 9409.345,
             "latestSentiment": 0.006192169139027204
          }
+      },
+      {
+         "current_position": {
+            "assetCode": "BTCUSD",
+            "tradeAmount (USD unit)": 1,
+            "entryDate": "2019-07-27T23:00:00+00:00",
+            "exitDate": null,
+            "longShort": "short",
+            "tradeStatus": "hold",
+            "updatedAt": "2019-07-29T13:00:00+00:00",
+            "entryPrice": 9444.315,
+            "stopLevel": 10079.377050000001,
+            "exitPrice": null,
+            "latestSentiment": -0.03972115436037052
+         },
+         "last_closed_trade": {
+            "assetCode": "BTCUSD",
+            "tradeAmount (USD unit)": 1,
+            "entryDate": "2019-07-26T23:00:00+00:00",
+            "exitDate": "2019-07-27T13:00:00+00:00",
+            "longShort": "long",
+            "tradeStatus": "stopped",
+            "updatedAt": "2019-07-27T13:00:00+00:00",
+            "entryPrice": 9790.815,
+            "stopLevel": 9459.55545,
+            "exitPrice": 9409.345,
+            "latestSentiment": 0.006192169139027204
+         }
       }
    ]
 }
