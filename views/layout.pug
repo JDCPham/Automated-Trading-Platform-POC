@@ -1,0 +1,59 @@
+doctype html
+
+html
+  
+  head
+    
+    <!-- General Metadata -->
+
+    meta(                                     charset=  metadata.charset)
+    meta(   http-equiv= 'X-UA-Compatible',    content=  'IE=edge')
+    meta(   name= 'viewport',                 content=  'width=device-width, initial-scale=1')
+    meta(   name= 'description',              content=  metadata.description)
+
+    <!-- Twitter Card Metadata -->
+    meta(   name= 'twitter:card',             content=  metadata.twitterCard)
+    meta(   name= 'twitter:site',             content=  metadata.twitterSite)
+    meta(   name= 'twitter:title',            content=  metadata.twitterURL)
+    meta(   name= 'twitter:description',      content=  metadata.twitterDescription)
+    meta(   name= 'twitter:creator',          content=  metadata.twitterCreator)
+    meta(   name= 'twitter:img:src',          content=  metadata.twitterImg)
+
+    <!-- Open Graph Metadata -->
+    meta(   property= 'og:title',             content=  metadata.ogTitle)
+    meta(   property= 'og:url',               content=  metadata.ogURL)
+    meta(   property= 'og:image',             content=  metadata.ogImage)
+    meta(   property= 'og:description',       content=  metadata.ogDescription)
+    meta(   property= 'og:site_name',         content=  metadata.ogTitle)
+    meta(   property= 'fb:admins',            content=  metadata.ogAdmins)
+
+    <!-- Stylesheets -->
+    link(   rel=  'stylesheet',               href= prepath + stylesheets.style)
+    link(   rel=  'stylesheet',               href= prepath + stylesheets.font)
+
+    <!-- Child Stylesheets -->
+    block stylesheets
+
+    <!-- Javascripts -->
+    script( src=  scripts.jQuery              defer) 
+    script( src=  scripts.jQueryRedirect      defer) 
+
+    <!-- Child Scripts -->
+    block scripts
+
+    <!-- Title -->
+    title #{metadata.title} | #{subtitle}
+    
+  body
+
+  <!-- Body Container -->
+  #container
+
+    <!-- Content -->
+    block content
+
+
+
+
+
+    

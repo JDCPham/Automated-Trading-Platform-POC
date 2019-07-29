@@ -1,0 +1,196 @@
+#profile-container {
+    display: grid;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    background-color: #FFF;
+    justify-self: center;
+    margin-bottom: 30px;
+    font-family: SanFrancisco-Medium;
+    font-size: 12px;
+
+    &:hover {
+        background-color: #000;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#profile-details {
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 120px auto;
+    width: auto;
+
+    #profile-details-text {
+        justify-self: start;
+        align-self: center;
+        text-align: left;
+        font-family: SanFrancisco-Medium;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+
+        #pad {
+            height: 8px;
+        }
+
+        .profileLabel {
+            font-family: SanFrancisco-Regular;
+            letter-spacing: 0.5px;
+            font-size: 12px;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        height: 90px;
+        border: 2px solid #AAA;
+    }
+
+}
+
+#trade-container {
+    width: 80%;
+    justify-self: center;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #AAA;
+    background-color: #FFF;
+    grid-template-rows: auto auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    p {
+        font-family: SanFrancisco-Medium;
+        letter-spacing: 0.3px;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    #trade-item {
+        display: grid;
+        border-bottom: 1px solid #888;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-family: SanFrancisco-Light;
+        letter-spacing: 0.3px;
+        font-size: 13px;
+        line-height: 18px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            font-family: SanFrancisco-Light;
+            letter-spacing: 0.3px;
+            font-size: 14px;
+            margin-top: 0px;
+            margin-left: 20px;
+            margin-bottom: 0px;
+        }
+
+        .key {
+            color: red;
+            font-family: SanFrancisco-Medium;
+        }
+    }
+}
+
+#api-container {
+    width: 80%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+#log-container {
+    display: grid;
+    grid-template-rows: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 6px #AAA;
+    height: max-content;
+
+    .log-title {
+        font-family: SanFrancisco-Medium;
+        letter-spacing: 0.3px;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #log-item {
+        display: grid;
+        grid-template-columns: 100px auto;
+        border-bottom: 1px solid #888;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-family: SanFrancisco-Light;
+        letter-spacing: 0.3px;
+        font-size: 13px;
+        line-height: 18px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .key {
+            color: red;
+            font-family: SanFrancisco-Medium;
+        }
+
+        .title {
+            font-family: SanFrancisco-Medium;
+            letter-spacing: 0.3px;
+            font-size: 22px;
+            color: red;
+            margin-bottom: 8px;
+        }
+    }
+
+    #log-item-b {
+        display: grid;
+        grid-template-rows: auto auto;
+        border-bottom: 1px solid #888;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        font-family: SanFrancisco-Light;
+        letter-spacing: 0.3px;
+        font-size: 13px;
+        line-height: 18px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .key {
+            color: red;
+            font-family: SanFrancisco-Medium;
+        }
+
+        .title {
+            font-family: SanFrancisco-Medium;
+            letter-spacing: 0.3px;
+            font-size: 22px;
+            color: red;
+            margin-bottom: 8px;
+        }
+    }
+}

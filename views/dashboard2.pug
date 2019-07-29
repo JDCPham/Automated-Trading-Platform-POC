@@ -1,0 +1,110 @@
+extends layout
+
+block scripts
+
+block stylesheets
+
+    <!-- Stylesheets -->
+    link(rel='stylesheet', href=prepath + stylesheets.dashboard2, type='text/css')
+
+block scripts
+
+    <!-- Scripts -->
+    script(type='text/javascript', src= prepath + scripts.dashboard2, defer)
+
+block content
+
+  #dashboard-container
+    #topLeftFill
+    #header
+      p Trade
+      img(src="images/mixer.png")
+      img(src="images/avatar.png").profile
+      #header-profile
+        p John L.
+        p.balance £235
+
+    #sidebar
+      img(src="images/calendar.png")
+      img(src="images/mail.png")
+      img(src="images/eye.png")
+      img(src="images/star.png")
+      img(src="images/user.png")
+
+    #main
+      #shadow
+        p#title Strategies
+        #openclose
+          #opencloseselector
+            p Open
+          p Closed
+
+        #strategies
+          #strategyItem
+            #itemDetail
+              #itemDetailTitle
+                p BTC Social Sentiment
+                p.pl +£21.67
+              #itemDetailDetail
+                #itemDetailAmount
+                  #itemDetailEntry
+                    p.l Amount
+                    p.r £200
+                  #itemDetailEntry
+                    p.l Entry Price
+                    p.r 10171.32
+                  #itemDetailEntry
+                    p.l Trade
+                    p.r Sell
+                #closeButton Close
+            #itemTransactions
+              p.transactionTitle Transaction List
+              #transactionEntry
+                p.transactionMain Swap BUY to SELL @ 11200.00
+                p.transactionDetail 22 July 2019
+                p.transactionDetail 23:07
+              #transactionEntry
+                p.transactionMain Change STOPLOSS to 8320.00
+                p.transactionDetail 22 July 2019
+                p.transactionDetail 17:30
+              #transactionEntry
+                p.transactionMain BUY BTC/USD 5000.00 for £200
+                p.transactionDetail 20 July 2019 
+                p.transactionDetail 10.15
+              a(href="/profile").seemore See More
+
+          #strategyItem
+            #itemDetail
+              #itemDetailTitle
+                p BTC Moving Average
+                p.pl +£183.03
+              #itemDetailDetail
+                #itemDetailAmount
+                  #itemDetailEntry
+                    p.l Amount
+                    p.r £200
+                  #itemDetailEntry
+                    p.l Entry Price
+                    p.r 10171.32
+                  #itemDetailEntry
+                    p.l Trade
+                    p.r Sell
+                #closeButton Close
+            #itemTransactions
+              p.transactionTitle Transaction List
+              #transactionEntry
+                p.transactionMain Swap BUY to SELL @ 11200.00
+                p.transactionDetail 22 July 2019
+                p.transactionDetail 23:07
+              #transactionEntry
+                p.transactionMain Change STOPLOSS to 8320.00
+                p.transactionDetail 22 July 2019
+                p.transactionDetail 17:30
+              #transactionEntry
+                p.transactionMain BUY BTC/USD 5000.00 for £200
+                p.transactionDetail 20 July 2019 
+                p.transactionDetail 10.15
+              a(href="/profile").seemore See More
+
+        a(href="/dashboard")#button Open new strategy
+      

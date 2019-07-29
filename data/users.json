@@ -1,0 +1,19 @@
+{
+   "users": [
+      {
+         "email": "jdcpham@outlook.com",
+         "username": "9bd5a989-5d52-4c5d-bd6c-e4a02b0bdbbe",
+         "randomPassword": "P@pter_avc9ozkq",
+         "userID": 7482
+      },
+      {
+         "email": "john.pham@finatext.com",
+         "username": "d78d2130-5eab-4372-8a34-9f05883eb099",
+         "randomPassword": "P@pter_migifh5e",
+         "userID": 7980
+      },
+      {
+         "userID": null
+      }
+   ]
+}

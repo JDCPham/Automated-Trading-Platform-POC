@@ -1,0 +1,66 @@
+extends layout
+
+block scripts
+
+    <!-- Scripts -->
+    script(type='text/javascript', src= prepath + scripts.profile, defer)
+
+    <!-- Stylesheets -->
+    link(rel='stylesheet', href= prepath + stylesheets.profile, type='text/css')
+
+block content
+  #profile-container
+    #profile-details
+      img(src="images/avatar.png")
+      #profile-details-text
+        p.profileLabel Email
+        p #{email}
+        #pad
+        p.profileLabel Balance
+        p £#{balance}
+
+    button#signout Sign Out
+
+
+    #trade-container
+      if trades.length == 1
+        p #{trades.length} trade open.
+      else
+       p #{trades.length} trades open.
+      each item in trades
+        #trade-item
+          p <span class="key">Market Name:</span> #{item.Content.MarketName}
+          p <span class="key">Booking Time:</span> #{item.Content.BookingTime}
+          p <span class="key">Booking Price:</span> #{item.Content.BookingPrice}
+          p <span class="key">Quantity:</span> #{item.Content.Quantity}
+          p <span class="key">Open P/L:</span> #{item.Content.OpenPnl}
+          p <span class="key">Current Price:</span> #{item.Content.CurrentPrice}
+
+    #api-container
+      #log-container
+        p.log-title Malcolm Log
+        each item in malcolm
+          #log-item
+            p.title #{item.current_position.assetCode}
+            #log-item-details
+              p <span class="key">Updated at:</span> #{item.current_position.updatedAt}
+              p <span class="key">Trade status:</span> #{item.current_position.tradeStatus}
+              p <span class="key">Sentiment:</span> #{item.current_position.latestSentiment}
+              if item.current_position.tradeStatus === "hold" || item.current_position.tradeStatus === "Trade opened"
+                if item.current_position.longShort === "long"
+                  p <span class="key">Buy/Sell:</span> Buy
+                else
+                  p <span class="key">Buy/Sell:</span> Sell
+                p <span class="key">Stoploss:</span> #{item.current_position.stopLevel}
+      #log-container
+        p.log-title Action Log
+        each item in log
+          #log-item-b
+            p.title #{item.title}
+            #log-item-details
+              p <span class="key">Description:</span> #{item.description}
+              p <span class="key">Asset:</span> #{item.currency}
+              p <span class="key">Received Signal:</span> #{item.tradeStatus}
+              p <span class="key">Updated At:</span> #{item.updatedAt}
+            
+            

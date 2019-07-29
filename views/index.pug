@@ -1,0 +1,24 @@
+extends layout
+
+block scripts
+
+block stylesheets
+
+    <!-- Stylesheets -->
+    link(rel='stylesheet', href=prepath + stylesheets.index, type='text/css')
+
+block scripts
+
+    <!-- Scripts -->
+    script(type='text/javascript', src= prepath + scripts.index, defer)
+
+block content
+  #index-container
+    form(action="javascript:void(0)")
+      p#formTitle ATP Login
+      p#formLabel Email
+      input(type="text")#formUsername
+      p#formLabel Password
+      input(type="password")#formPassword
+      input(type="submit", value="Submit")#formSubmit
+      p#formMessage

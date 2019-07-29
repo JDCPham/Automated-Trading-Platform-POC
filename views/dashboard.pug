@@ -1,0 +1,56 @@
+extends layout
+
+block scripts
+
+block stylesheets
+
+    <!-- Stylesheets -->
+    link(rel='stylesheet', href=prepath + stylesheets.dashboard, type='text/css')
+
+block scripts
+
+    <!-- Scripts -->
+    script(type='text/javascript', src= prepath + scripts.dashboard, defer)
+
+block content
+
+  #dashboard-container
+    #topLeftFill
+    #header
+      p Trade
+      img(src="images/mixer.png")
+      img(src="images/avatar.png").profile
+      #header-profile
+        p John L.
+        p.balance £235
+
+    #sidebar
+      img(src="images/calendar.png")
+      img(src="images/mail.png")
+      img(src="images/eye.png")
+      img(src="images/star.png")
+      img(src="images/user.png")
+
+
+
+
+    #main
+      #shadow
+        p#title Create a new strategy
+        #where
+          p Where do you like to invest?
+          form
+            input(type="radio", name="where", value="BTCSocialSentiment" checked) 
+            | BTC Social Sentiment <br>
+            input(type="radio", name="where", value="BTCMovingAverages") 
+            | BTC Moving Averages <br>
+            input(type="radio", name="where", value="ETHSocialSentiment") 
+            | ETH Social Sentiment
+        #amount
+          p What's the amount you'd like to invest?
+          #amountSelector
+            #selector.minus -
+            p.value £1000
+            #selector.plus +
+
+        a(href="/dashboard2")#button Create
