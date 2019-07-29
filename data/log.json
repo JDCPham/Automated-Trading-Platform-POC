@@ -1,21 +1,21 @@
 {
    "7482": [
       {
-         "updatedAt": "2019-07-29T14:00:00+00:00",
-         "title": "Changed stoploss on current open BTC/USD trade.",
-         "description": "Stoploss now set at 10079.377050000001",
-         "currency": "BTC/USD",
-         "tradeStatus": "hold",
-         "openTrades": 7,
-         "balance": 9705.59
-      },
-      {
          "updatedAt": "2019-07-24T23:00:00+00:00",
          "title": "Opened Sell BTC/USD trade.",
          "description": "Entry Price: 9482.5, set stoploss to 10239.87455",
          "currency": "BTC/USD",
          "tradeStatus": "Trade opened",
          "openTrades": 0,
+         "balance": 9705.59
+      },
+      {
+         "updatedAt": "2019-07-29T14:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 7,
          "balance": 9705.59
       }
    ],
