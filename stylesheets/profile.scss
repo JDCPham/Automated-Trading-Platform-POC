@@ -88,6 +88,7 @@ button {
         letter-spacing: 0.3px;
         font-size: 13px;
         line-height: 18px;
+    
 
         &:last-child {
             border-bottom: none;
@@ -145,6 +146,8 @@ button {
         letter-spacing: 0.3px;
         font-size: 13px;
         line-height: 18px;
+        height: 120px;
+        overflow: hidden;
 
         &:last-child {
             border-bottom: none;
@@ -175,6 +178,8 @@ button {
         letter-spacing: 0.3px;
         font-size: 13px;
         line-height: 18px;
+        height: 120px;
+        overflow:hidden;
 
         &:last-child {
             border-bottom: none;
@@ -188,9 +193,8 @@ button {
         .title {
             font-family: SanFrancisco-Medium;
             letter-spacing: 0.3px;
-            font-size: 22px;
+            font-size: 18px;
             color: red;
-            margin-bottom: 8px;
         }
     }
 }
