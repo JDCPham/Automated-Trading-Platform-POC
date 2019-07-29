@@ -13,7 +13,10 @@
          "userID": 7980
       },
       {
-         "userID": null
+         "email": "john.pham+99@finatext.com",
+         "username": "bca239c4-44b2-4afc-9f84-ff51938dc3e2",
+         "randomPassword": "P@pter_3sjt91pk",
+         "userID": 8228
       }
    ]
 }
