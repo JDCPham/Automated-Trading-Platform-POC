@@ -234,7 +234,7 @@ function loadProfile(req, res) {
         balance     :   STARBalance,
         prepath     :   '',
         malcolm     :   malcolm.responses.reverse(),
-        log         :   log[demoID],
+        log         :   log[demoID].reverse(),
         subtitle    :   'Profile'
     
       });
