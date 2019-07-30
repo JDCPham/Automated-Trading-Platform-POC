@@ -1,4 +1,15 @@
 {
+   "7171": [
+      {
+         "updatedAt": "2019-07-30T08:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10010.09
+      }
+   ],
    "7482": [
       {
          "updatedAt": "2019-07-24T23:00:00+00:00",
@@ -17,6 +28,168 @@
          "tradeStatus": "hold",
          "openTrades": 7,
          "balance": 9705.59
+      },
+      {
+         "updatedAt": "2019-07-29T15:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2172.99
+      },
+      {
+         "updatedAt": "2019-07-29T16:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2114.73
+      },
+      {
+         "updatedAt": "2019-07-29T17:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2146.57
+      },
+      {
+         "updatedAt": "2019-07-29T18:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2214.4
+      },
+      {
+         "updatedAt": "2019-07-29T19:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2187.24
+      },
+      {
+         "updatedAt": "2019-07-29T20:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2189.56
+      },
+      {
+         "updatedAt": "2019-07-29T21:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2147.47
+      },
+      {
+         "updatedAt": "2019-07-29T22:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2190.31
+      },
+      {
+         "updatedAt": "2019-07-29T23:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2164.38
+      },
+      {
+         "updatedAt": "2019-07-30T00:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2148.9
+      },
+      {
+         "updatedAt": "2019-07-30T01:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2153.1
+      },
+      {
+         "updatedAt": "2019-07-30T02:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10079.377050000001",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2171.81
+      },
+      {
+         "updatedAt": "2019-07-30T03:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2221.59
+      },
+      {
+         "updatedAt": "2019-07-30T04:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2195.04
+      },
+      {
+         "updatedAt": "2019-07-30T05:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2178.98
+      },
+      {
+         "updatedAt": "2019-07-30T06:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2151.37
+      },
+      {
+         "updatedAt": "2019-07-30T07:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2131.68
+      },
+      {
+         "updatedAt": "2019-07-30T08:00:00+00:00",
+         "title": "Changed stoploss on current open BTC/USD trade.",
+         "description": "Stoploss now set at 10072.86705",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 1,
+         "balance": 2123.6
       }
    ],
    "7980": [
@@ -28,11 +201,335 @@
          "tradeStatus": "hold",
          "openTrades": 0,
          "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T15:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T16:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T17:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T18:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T19:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T20:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T21:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T22:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-29T23:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T00:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T01:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T02:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T03:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T04:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T05:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T06:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T07:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
+      },
+      {
+         "updatedAt": "2019-07-30T08:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 17495.52
       }
    ],
    "8228": [
       {
          "updatedAt": "2019-07-29T14:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T15:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T16:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T17:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T18:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T19:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T20:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T21:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T22:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-29T23:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T00:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T01:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T02:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T03:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T04:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T05:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T06:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T07:00:00+00:00",
+         "title": "Stoploss trigger detected on STAR server.",
+         "description": "No action will be taken until next Open Trade signal",
+         "currency": "BTC/USD",
+         "tradeStatus": "hold",
+         "openTrades": 0,
+         "balance": 10251.16
+      },
+      {
+         "updatedAt": "2019-07-30T08:00:00+00:00",
          "title": "Stoploss trigger detected on STAR server.",
          "description": "No action will be taken until next Open Trade signal",
          "currency": "BTC/USD",

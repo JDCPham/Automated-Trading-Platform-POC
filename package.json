@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "dev": "DEBUG=john-pham-website:* npm start",
     "prod": "NODE_ENV=production npm start"
   },
